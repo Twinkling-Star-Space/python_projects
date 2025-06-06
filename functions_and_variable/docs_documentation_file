@@ -1,3 +1,53 @@
 
-
+Documentations:
 1. docs.python.org/3/library/stdtypes.html#string_methods
+
+In this folder we learned about the following data:
+
+functions
+-inbuilt functions (input, print)
+-human made functions
+
+
+Variables
+return
+data types (int, float, str)
+
+
+str methods
+strip()     # remove spaces before and after a word
+split()     # it splits a sentence into distinguishable words
+title()     # capitalizing the begining of each words
+capitalize()  # capitalizing the beginning of a sentence
+uppercase()   # converting all the letters into uppercase
+
+
+
+projects:
+
+work_1: we completed a small first python project by making a calculator that simply added to int 
+number.
+
+work_2: we also managed to solve the user input problems that mistakenly entered spaces or lower case words.
+
+
+
+
+Some of the special syntaces
+
+print(*objects, sep = '', end = '')
+
+round(number[,ndigits])  #rouding off number or digits after decimals
+
+def main():              #conventional method of writing python code
+main()
+
+
+
+some of the operators:
+
+**   # this allows you to find square of the number
+=    # it is called assignment operator
+
+\    # it is a escape character that tells interpreter to let quote unquote inside quote unquote
+
