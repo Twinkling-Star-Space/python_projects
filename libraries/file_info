@@ -1,0 +1,61 @@
+'''
+module
+
+Library(1)
+ -random        #it is one of the pre built functions or structure
+
+random.choice   # pick up any one out the included in list
+random.randint  # pick up any number
+random.shuffle  # arrange or shuffle the data inside the list
+
+? can we increase the probability of the things
+
+print           # to print what i want
+
+---------------------------------------------------------------------------
+Library(2)
+statistics
+
+statistics.mean([ , ])
+
+---------------------------------------------------------------------------
+
+command line arguments
+
+sys
+sys.argv
+sys.exit
+slices
+
+-----------------------------------------------------------------------------
+
+packages : it is third party modules ===> pypi website
+cowsay
+pip : it is programm come with python itself and allows to download packages
+
+# to install package like cowsay
+  pip install cowsay
+
+
+  
+  ---------------------------------------------------------------------------
+
+  APIs
+  requests : it is also a package of python
+  json
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+'''
