@@ -1,7 +1,27 @@
 modules
  -random
  
-
 import
  
+sys
+random.randint()
+
+sys.argv
+
+packages : third party programms or code
+  
+cowsay
+ -trex
+ -say
+
+pip
+
+APIs : it is a tool that helps programmers to fetch some codes from the other server
+requests
+
+JSON: JAVASCRIPT OBJECT NOTATION
+
+json : it is also python library which allow me to fetch data and format data
+
+
 

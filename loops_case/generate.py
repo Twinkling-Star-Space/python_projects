@@ -1,0 +1,1 @@
+print("hello my name is diplal thakur. i am from Nepal")

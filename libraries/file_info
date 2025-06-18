@@ -42,7 +42,11 @@ pip : it is programm come with python itself and allows to download packages
 
   APIs
   requests : it is also a package of python
-  json
+  json : it is also a python library
+
+
+----------------------------------------------------------------------------------------
+custom libraries
 
 
 

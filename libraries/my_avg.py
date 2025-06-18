@@ -68,6 +68,7 @@ import sys
 
 if len(sys.argv) < 2:
     sys.exit("to few argument")
+    
 # here i took slice of list from 
 for arg in sys.argv[1:]:
     print("my name is ",arg)
