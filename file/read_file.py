@@ -1,4 +1,4 @@
-'''
+
 with open("names.txt", "r") as my_file:
     lines = my_file.readlines()
 
@@ -15,8 +15,6 @@ with open("names.txt", "r") as file:
 
 
 #-----------------------------------------------
-
-'''
 
 names = []
 

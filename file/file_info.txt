@@ -16,5 +16,12 @@ sorted(          , reverse = True/False)
 name.csv
 
 csv : comma seperated value
+libraries and packages of csv
+
+import csv
+reader()
 
 -----------------------------
+key parameter
+
+---------------------------------

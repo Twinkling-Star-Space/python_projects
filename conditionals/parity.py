@@ -5,11 +5,11 @@ if num % 2 == 0:
     print("Even")
 else:
     print("Odd")
-
+#-------------------------------------------------------------------------------------
 #  The above code can be simplified using a single if-else structure
 print("Even" if num % 2 == 0 else "Odd")
 
-
+#-------------------------------------------------------------------------------------
 
 # print the even numbers only
 number = int(input("Enter a number: "))
@@ -18,7 +18,7 @@ for i in range(1, number):
     if i % 2 == 0:
         print(i, end="  ")
 
-
+#-------------------------------------------------------------------------------------
 # the more descriptive version
 # This program prints all even numbers from 1 to a given number (exclusive)
 number = int(input("Enter a number: "))
@@ -30,7 +30,7 @@ for i in range(1, number):
 
 print(f"\nTotal even numbers found is {count} in the range of 1 to {number}")
 
-
+#-------------------------------------------------------------------------------------
 # using functions
 
 def parity(number):
@@ -42,7 +42,7 @@ def parity(number):
 number = int(input("Enter your number ( to check either an odd or an even): "))
 parity(number)
 
-
+#-------------------------------------------------------------------------------------
 
 
 # creating my own function to print even or odd numbers
@@ -62,7 +62,7 @@ def is_even(num):
         return False
     
 main()
-
+#-------------------------------------------------------------------------------------
 
 # pythonic expression 
 
@@ -76,7 +76,7 @@ def is_even(num):
 # also return TRUE if num % 2 == 0 else False
 main()
 
-
+#-------------------------------------------------------------------------------------
 # use of match-case statement to check names and print their houses
 name = input("Enter a name: ")
 
@@ -92,3 +92,4 @@ match name:
     case default:
         print("who?")
 
+#-------------------------------------------------------------------------------------

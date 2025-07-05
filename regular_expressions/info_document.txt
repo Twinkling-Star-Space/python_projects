@@ -1,0 +1,62 @@
+regexes
+
+split()
+-----------------------------
+if _ in "      ":
+
+endswith("")
+------------------------------------------
+re : library of pattern
+docs.python.org/3/library/re.html
+
+re.search(pattern, string, flags = 0)
+--------------------------------------------
+
+some of the characters
+
+.
++
+*
+^
+$
+
+[] set of characters
+[^] >>>> complementing the set
+
+
+\w >>> word character which tell alphanumerica including numbers and underscore
+
+[a-zA-Z0-9_] ~ w(small)
+
+
+simplified 
+
+\d ----> decimal digit
+\D ----> no decimal digit
+\s -----> string
+\S -----> no string
+\w -----> alphanumerica
+\W ------> no alphanumerica
+
+-----------------------------------------------------------
+
+sometimes the organizations may be different
+
+like it can be { .org or .com or .net or .np or .edu and so on }
+(com|net|edu|np|org|gov) -----> either of the case is acceptable
+(?:.........)        ----------> none of the case is acceptable in the left syntax
+
+---------------------------------------------
+
+yeah we have to check the case in that case we need to use the following syntax
+
+re.IGNORECASE
+re.MUTILINE
+re.DOTALL           // THEY ARE CALLED SO FLAGS
+
+
+---------------------------------------------
+In the case of multiple DOT 
+
+we can use multiple ideas but one of the best is using "?"
+

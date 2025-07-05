@@ -1,4 +1,4 @@
-'''
+
 import statistics
 
 avg = statistics.mean([12,12])
@@ -72,7 +72,7 @@ if len(sys.argv) < 2:
 # here i took slice of list from 
 for arg in sys.argv[1:]:
     print("my name is ",arg)
-'''
+
 #----------------------------------------------------------------
 
 

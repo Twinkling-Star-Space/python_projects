@@ -1,5 +1,5 @@
 
-'''
+
 name = input("Enter ? ")
 
 
@@ -8,7 +8,7 @@ my_file = open("names.txt", "a")
 my_file.write(f"{name}\n")
 
 my_file.close()
-'''
+
 
 #----------------------------------------------------
 

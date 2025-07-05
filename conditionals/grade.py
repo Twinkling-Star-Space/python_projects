@@ -18,6 +18,7 @@ elif score >= 50 and score < 60:
 else:
     print("you got C")
 
+#--------------------------------------------------------------------------------------
 # The above code can be simplified using a single if-elif-else structure
 score = int(input("ENTER YOUR SCORE:"))
 
@@ -34,7 +35,7 @@ elif 50 <= score < 60:
 else:
     print("you got C")
 
-
+#----------------------------------------------------------------------------------------
 # The above code can be simplified using a single if-elif-else structure
 score = int(input("ENTER YOUR SCORE:"))
 
@@ -53,7 +54,7 @@ else:
 
 
 
-
+#-------------------------------------------------------------------------------------
 # The above code can be simplified using a dictionary to map scores to grades
 score = int(input("ENTER YOUR SCORE:"))
 grades = {
@@ -71,7 +72,7 @@ for (range, grade) in grades.items():
         break
 
 
-
+#-------------------------------------------------------------------------------------
 # The above code can be further simplified using a function
 def get_grade(score):
     if score >= 90 and score <= 100:
@@ -90,6 +91,7 @@ def get_grade(score):
 score = int(input("ENTER YOUR SCORE:"))
 print(f"You got {get_grade(score)}")
 
+#-------------------------------------------------------------------------------------
 # The above code can be further simplified using a single if-elif-else structure in the function
 def get_grade(score):
     if 90 <= score <= 100:
@@ -109,6 +111,7 @@ score = int(input("ENTER YOUR SCORE:"))
 print(f"You got {get_grade(score)}")
 
 
+#-------------------------------------------------------------------------------------
 # The above code can be further simplified using a dictionary and a function
 def get_grade(score):
     grades = {
@@ -128,7 +131,7 @@ score = int(input("ENTER YOUR SCORE:"))
 print(f"You got {get_grade(score)}")
 
 
-
+#-------------------------------------------------------------------------------------
 # The above code can be further simplified using a dictionary and a function with a single return statement
 def main():
     score = int(input("ENTER YOUR SCORE:"))
@@ -150,3 +153,4 @@ def get_grade(score):
         
 main()
 
+#-------------------------------------------------------------------------------------
